@@ -9,6 +9,9 @@ class Vahicle:
 
     def get_model(self):
             return f'Модель: {self.__model}'
+        
+    def get_color(self):
+            return f'Цвет: {self.__color}'
 
     def get_horsepower(self):
             return f"Мощность двигателя: {self.__engine_power}"
